@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная работа 2</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="block">
+        <h3>Определение второго слова с конца</h3>
+        <input type="text" id="inP1" placeholder="Введите строку">
+        <button onclick="secondWord()">Найти</button>
+        <span id="outP1"></span>
+    </div>
+
+    <div class="block">
+        <h3>Проверка на анаграмму</h3>
+        <input type="text" id="inP2a" placeholder="Строка 1">
+        <input type="text" id="inP2b" placeholder="Строка 2">
+        <button onclick="anagramCheck()">Проверить</button>
+        <span id="outP2"></span>
+    </div>
+
+    <div class="block">
+        <h3>Удаление гласных</h3>
+        <input type="text" id="inP3" placeholder="Введите строку">
+        <button onclick="removeVowels()">Удалить</button>
+        <span id="outP3"></span>
+    </div>
+
+    <div class="block">
+        <h3>Генерация массива случайных чисел</h3>
+        <button onclick="genRandomArray()">Сгенерировать</button>
+        <span id="outP4"></span>
+    </div>
+
+    <div class="block">
+        <h3>Генерация случайной строки</h3>
+        <button onclick="genRandomString()">Сгенерировать</button>
+        <span id="outP5"></span>
+    </div>
+
+    <div class="block">
+        <h3>Случайный массив и подсчет чисел кратных трем</h3>
+        <button onclick="countDivThree()">Посчитать</button>
+        <span id="outP6"></span>
+    </div>
+
+    <div class="block">
+        <h3>Генерация случайного сортированного массива</h3>
+        <button onclick="sortArray()">Сгенерировать</button>
+        <span id="outP7"></span>
+    </div>
+
+    <div class="block">
+        <h3>Количество часов между 13 августа 1988 года 10:00 и 22 декабря 2033 года 17:00</h3>
+        <button onclick="calculateHours()">Посчитать</button>
+        <span id="outP8"></span>
+    </div>
+
+    <div class="block">
+        <h3>Число секунд до конца дня</h3>
+        <button onclick="secondsUntilEnd()">Посчитать</button>
+        <span id="outP9"></span>
+    </div>
+
+    <div class="block">
+        <h3>Случайные даты и разница</h3>
+        <button onclick="genRandomDates()">Сгенерировать</button>
+        <span id="outP10"></span>
+    </div>
+</div>
+<script src="Script.js"></script>
+</body>
+</html>
